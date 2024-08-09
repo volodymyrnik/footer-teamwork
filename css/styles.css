@@ -1,6 +1,7 @@
 /* Мобільні пристрої */
 .footer {
-  padding-top: 40px;
+  position: absolute;
+  bottom: 0;
 }
 
 .container-footer {
@@ -10,7 +11,7 @@
   border-radius: 24px 24px 0px 0px;
   background: #1b414b;
   margin-right: auto;
-  margin-left: auto;
+  margin-left: 16px;
   text-align: center;
 }
 
@@ -111,8 +112,8 @@
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 14px; /* 116.667% */
-  letter-spacing: 0.36px;
+  line-height: 14px;
+  letter-spacing: 3%;
 }
 
 .list-item-footer:focus {
